@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f2649fd799.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="" type="text/css" rel="stylesheet" />
+    <style>
+      .card-body {
+        background: #2986ff;
+      }
+      body {
+        background: linear-gradient(to right, #7456ce, #792877);
+      }
+      .leftpart {
+        margin: 10rem 0 10rem 0;
+        color: white;
+      }
+      .leftpart img {
+        border: none;
+        background-color: white;
+        border-radius: 25%;
+        padding: 0.5rem;
+      }
+      .card {
+        border: none;
+        margin: 10rem 0 10rem 0;
+      }
+      .card-body h3,
+      h5 {
+        text-align: center;
+        color: white;
+        padding: 0 3rem 0 3rem;
+      }
+      .card-body .btn-light {
+        background-color: white;
+        color: black;
+        margin-left: 5rem;
+      }
+      .card-body .btn-light:hover {
+        background-color: white;
+        color: black;
+      }
+
+      .card-body .btn-success {
+        border: none;
+        color: white;
+        padding: 0.5rem;
+        font-weight: bold;
+        width: 250px;
+        margin-left: 5rem;
+      }
+      @media screen and (max-width: 600px) {
+        .card-body .btn-success {
+          margin-left: 2rem;
+          width: 150px;
+        }
+      }
+    </style>
+    <script></script>
+  </head>
+  <body>
+    <!--navbar starts-->
+    <nav class="navbar navbar-expand-sm">
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#nav1"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--logo-->
+      <a href="#" class="navbar-brand"
+        ><img
+          src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_logo.svg"
+          height="50px"
+      /></a>
+    </nav>
+    <!--navbar ends-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 leftpart">
+          <div class="first-image d-flex mt-4">
+            <!--image1-->
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/watchVideos-ccb1a3013c94ed431800f6b9f6289d847ea71c4cf792485501e92c200856e9ff.svg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <!--img1 content-->
+            <div>
+              <h4>Watch Videos</h4>
+              <p>1000+ hours of engaging videos covering all concepts</p>
+            </div>
+          </div>
+          <div class="second-image d-flex mt-4">
+            <!--image2-->
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/unlimitedPractice-6e6fee225e62212171126d6c6e068aaa7727dcf265867f856d7dccc0f0092c0f.svg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <!--img2 content-->
+            <div>
+              <h4>Unlimited Practice</h4>
+              <p>
+                Learn better and faster with our adaptive algorithm that is
+                personalized for you
+              </p>
+            </div>
+          </div>
+          <div class="third-image d-flex mt-4">
+            <!--image 3-->
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/takeTest-1886540c053c17e1877d619815a1a150bd3748454e99ef5bc1add2421c55f41a.svg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <!--img3 content-->
+            <div>
+              <h4>Take Tests</h4>
+              <p>
+                Ace your school and competitive exams with our subjective and
+                objective tests
+              </p>
+            </div>
+          </div>
+          <div class="fourth-image d-flex mt-4">
+            <!--iamge4-->
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/askADoubt-10caa2ce33d7d5655b3abd15c8cefb5aa43df2376f6220963f6858ba77c800d8.svg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <!--img4 content-->
+            <div>
+              <h4>Ask A Doubt</h4>
+              <p>
+                Get your doubts cleared from our expert mentors and move fast
+                towards your goals
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--card starts-->
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="mt-3">Let's get started</h3>
+              <h5>
+                Enter your mobile number to sign up / sign in to your BYJU'S
+                account
+              </h5>
+              <!--dropdown-->
+              <div class="input-group mt-5">
+                <div class="input-group-prepend">
+                  <button
+                    class="btn btn-light dropdown dropdown-toggle"
+                    data-toggle="dropdown"
+                    type="button"
+                  >
+                    +91
+                  </button>
+                  <ul class="dropdown-menu">
+                    <input type="text" style="width: 50px" />
+                    <li><a href="#" class="dropdowm-item">+93</a></li>
+                    <li><a href="#" class="dropdowm-item">+358</a></li>
+                    <li><a href="#" class="dropdowm-item">+355</a></li>
+                    <li><a href="#" class="dropdowm-item">+213</a></li>
+                    <li><a href="#" class="dropdowm-item">+684</a></li>
+                    <li><a href="#" class="dropdowm-item">+376</a></li>
+                    <li><a href="#" class="dropdowm-item">+244</a></li>
+                  </ul>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Enter your number here"
+                  aria-label=""
+                  aria-describedby="basic-addon1"
+                  style="width: 200px"
+                />
+              </div>
+              <a
+                href="login2.html"
+                target="blank"
+                class="btn btn-success mt-3 mb-3"
+                >NEXT</a
+              >
+            </div>
+            <div class="card-footer">
+              <!--first image-->
+              <div class="first-image d-flex">
+                <!--image1-->
+                <div>
+                  <img
+                    src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/checkCircle-9418b2a8e1742e05b9893991b2f4fe100ee54dbf77f269cb93051898bff414c3.svg"
+                  />
+                </div>
+                <!--p1-->
+                <div><p>Access our library of over 5 lakh questions</p></div>
+              </div>
+              <!--second image-->
+              <div class="second-image d-flex">
+                <!--image2-->
+                <div>
+                  <img
+                    src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/checkCircle-9418b2a8e1742e05b9893991b2f4fe100ee54dbf77f269cb93051898bff414c3.svg"
+                  />
+                </div>
+                <!---p2-->
+                <div><p>Clear doubts with experts</p></div>
+              </div>
+              <!--third image-->
+              <div class="third-image d-flex">
+                <!--image3-->
+                <div>
+                  <img
+                    src="https://d2qybs4cw4udti.cloudfront.net/assets/mobile_authentications/checkCircle-9418b2a8e1742e05b9893991b2f4fe100ee54dbf77f269cb93051898bff414c3.svg"
+                  />
+                </div>
+                <!---p3-->
+                <div>
+                  <p>Practice to perfection with chapterwise online tests</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--script tags-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

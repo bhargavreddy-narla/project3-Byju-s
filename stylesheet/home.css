@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: purple;
+}
+.navbar-brand a {
+  margin-left: 5rem;
+}
+.navbar a {
+  margin-left: 3rem;
+  color: #ffc846;
+}
+.navbar .dropdown-menu a {
+  background-color: navy;
+}
+.navbar .btn {
+  border: 1px solid #ffc846;
+  padding: 0.5rem;
+}
+
+.navbar .fa-phone-square-alt {
+  font-size: 30px;
+}
+.navbar .fa-search {
+  font-size: 30px;
+}
+.content2 {
+  background-color: blueviolet;
+}
+.content2 .card {
+  margin: 2rem 6rem 2rem 6rem;
+  border-radius: 30px;
+}
+.card-body {
+  text-align: center;
+}
+.card-body .btn {
+  background: linear-gradient(to right, #5c72ff, #8c3fff);
+}
+.form-group .btn-secondary {
+  background: linear-gradient(to right, #ff8e32, #ff5263);
+  font-size: 30px;
+  border: none;
+}
+.content3 {
+  text-align: center;
+}
+.content4 {
+  background-color: #e5e8e8;
+  border-radius: 30px;
+}
+.content4 h5 {
+  width: 200px;
+  padding: 0.5rem;
+  background: linear-gradient(to right, #5c72ff, #8c3fff);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.content4 h6 {
+  margin-top: 1rem;
+}
+.content4 a {
+  text-decoration: none;
+  color: black;
+}
+.content4 .btn-secondary {
+  background: linear-gradient(to right, #ff8e32, #ff5263);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 200px;
+  font-weight: bold;
+}
+.content5 {
+  border-radius: 30px;
+  background: #e5e8e8;
+}
+
+.content5 h5 {
+  width: 200px;
+  padding: 0.5rem;
+  background: linear-gradient(to right, #5c72ff, #8c3fff);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.content5 .btn-secondary {
+  background: linear-gradient(to right, #ff8e32, #ff5263);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 200px;
+  font-weight: bold;
+}
+.content6 {
+  background: #e5e8e8;
+}
+.content6 h5 {
+  width: 200px;
+  padding: 0.5rem;
+  background: linear-gradient(to right, #5c72ff, #8c3fff);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.content6 .btn-secondary {
+  background: linear-gradient(to right, #ff8e32, #ff5263);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 200px;
+  font-weight: bold;
+}
+.content7 h3 {
+  font-weight: bold;
+}
+.col-sm-4 img {
+  width: 300px;
+}
+.content7 h5 {
+  text-align: center;
+  font-weight: bold;
+}
+.content8 {
+  margin-top: 5rem;
+}
+.content8 h3 {
+  font-weight: bold;
+}
+.content8 h2,
+h5 {
+  text-align: center;
+}
+.content9 {
+  margin-top: 4rem;
+  background: #813588;
+}
+.content9 h6 {
+  color: #ffc846;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.content9 li {
+  list-style-type: none;
+}
+.content9 a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.content9 a .fab {
+  font-size: 1.5rem;
+}
+.content10 {
+  background: #813588;
+}
+.content10 h6 {
+  color: #ffc846;
+}
+.content10 p,
+li {
+  color: white;
+  font-size: 14px;
+}
+.content10 .payment-images li {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+.content10 .payment-images img {
+  width: 80px;
+  height: 50px;
+  padding: 0.5rem;
+}
+
+.content10 .footer-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+.content10 .footer-links a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>6-10 class</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f2649fd799.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="" type="text/css" rel="stylesheet" />
+    <style>
+      .navbar {
+        background-color: purple;
+      }
+      .navbar-brand a {
+        margin-left: 5rem;
+      }
+      .navbar a {
+        margin-left: 3rem;
+        color: #ffc846;
+      }
+      .navbar .dropdown-menu a {
+        background-color: navy;
+      }
+      .navbar .btn {
+        border: 1px solid #ffc846;
+        padding: 0.5rem;
+      }
+
+      .navbar .fa-phone-square-alt {
+        font-size: 30px;
+      }
+      .navbar .fa-search {
+        font-size: 30px;
+      }
+      .classes h1 {
+        color: #00376e;
+        font-weight: bold;
+      }
+      .content1 a {
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+      }
+      iframe {
+        border-radius: 10px;
+      }
+      .content3 h3 {
+        color: #00376e;
+        font-weight: bold;
+      }
+      .content4 img {
+        margin-left: 4rem;
+        border: none;
+        padding: 0.5rem;
+        background: white;
+      }
+      .content4 .rightside input {
+        width: 300px;
+        height: 50px;
+      }
+      .content4 .rightside button {
+        height: 50px;
+        width: 50px;
+      }
+      .content5 h2 {
+        color: #00376e;
+        font-weight: bold;
+      }
+      .content7 {
+        margin-top: 5rem;
+      }
+      .content7 .middle-content {
+        border: 1px dashed navy;
+        border-radius: 10px;
+        background: #eaeded;
+        padding: 2rem;
+        color: #00376e;
+      }
+      .content7 h6 {
+        font-size: 20px;
+      }
+      .content9 li {
+        margin-left: 2rem;
+      }
+      .content9 a {
+        color: green;
+        text-decoration: none;
+      }
+      .content10 {
+        margin-top: 4rem;
+        background: #813588;
+      }
+      .content10 h6 {
+        color: #ffc846;
+        font-weight: bold;
+        margin-top: 0.5rem;
+      }
+      .content10 li {
+        list-style-type: none;
+      }
+      .content10 a {
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: -2rem;
+      }
+      .content10 a .fab {
+        font-size: 1.5rem;
+      }
+      .footer {
+        background: #813588;
+      }
+      .footer-links li {
+        list-style-type: none;
+        display: inline-block;
+      }
+      .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin-top: 4rem;
+      }
+    </style>
+    <script></script>
+  </head>
+  <body>
+    <!--navbar starts-->
+    <nav class="navbar navbar-expand-sm">
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#nav1"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--logo-->
+      <a href="#" class="navbar-brand"
+        ><img
+          src="https://cdn1.byjus.com/byjusweb/img/home/svg/byjus_logo.svg"
+          height="50px"
+      /></a>
+      <div class="collapse navbar-collapse" id="nav1">
+        <ul class="navbar-nav">
+          <!--Study materials-->
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown"
+              >Study Materials <i class="fas fa-chevron-circle-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">NCERT Solutions</a>
+              <a href="#" class="dropdown-item">Classes</a>
+              <a href="#" class="dropdown-item">CBSE</a>
+              <a href="#" class="dropdown-item">Commerce</a>
+              <a href="#" class="dropdown-item">ICSE</a>
+              <a href="#" class="dropdown-item">IAS</a>
+              <a href="#" class="dropdown-item">JEE</a>
+              <a href="#" class="dropdown-item">NEET</a>
+              <a href="#" class="dropdown-item">State Boards</a>
+              <a href="#" class="dropdown-item">Government Exams</a>
+              <a href="#" class="dropdown-item">Kids Learning</a>
+              <a href="#" class="dropdown-item">BYJU'S Gate</a>
+              <a href="#" class="dropdown-item">Entrance Exams in India</a>
+              <a href="#" class="dropdown-item">Academic Questions</a>
+              <a href="#" class="dropdown-item">CAT</a>
+              <a href="#" class="dropdown-item">Full Forms</a>
+            </div>
+          </li>
+          <!--scholarship-->
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown"
+              >Scholarship <i class="fas fa-chevron-circle-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">BNAT Class 4-10</a>
+              <a href="#" class="dropdown-item">BNAT Class 11-12 </a>
+              <a href="#" class="dropdown-item">BNST | IAS</a>
+              <a href="#" class="dropdown-item">Mock Test | JEE Main </a>
+              <a href="#" class="dropdown-item">Mock Test | JEE Advance</a>
+              <a href="#" class="dropdown-item">Mock Test | NEET</a>
+            </div>
+          </li>
+          <!--course-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">Buy a Course</a>
+          </li>
+          <!--give-->
+          <li class="nav-item">
+            <a href="byjus give.html" target="blank" class="nav-link"
+              >BYJU'S Give</a
+            >
+          </li>
+          <!--success-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">Success Stories</a>
+          </li>
+          <!--log in-->
+          <li class="nav-item">
+            <a href="stylesheet/login.html" target="blank" class="nav-link btn"
+              >Log In</a
+            >
+          </li>
+          <!--call-->
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><i class="fas fa-phone-square-alt"></i
+            ></a>
+          </li>
+          <!--search-->
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--navbar ends-->
+
+    <!--jumbotron starts-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 jumbotron">
+          <img
+            src="https://cdn1.byjus.com/wp-content/uploads/2018/11/Course-6-10-compressor1.jpg"
+            height="700px"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <!--jumbotron ends-->
+    <!--6-10 class-->
+    <div class="container">
+      <div class="row classes">
+        <div class="col-sm-12">
+          <center><h1>Class 6 - 10</h1></center>
+        </div>
+      </div>
+    </div>
+    <!--content1-->
+    <div class="container">
+      <div class="row content1 mt-5">
+        <div class="col-sm-4">
+          <fieldset>
+            <select
+              type="text"
+              name=""
+              value=""
+              placeholder="State"
+              class="form-control mt-3"
+            >
+              <option>Class 6th</option>
+              <option>Class 7th</option>
+              <option>Class 8th</option>
+              <option>Class 9th</option>
+              <option>Class 10th</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="col-sm-4">
+          <center><a href="#">Maths</a></center>
+        </div>
+        <div class="col-sm-4">
+          <center><a href="#">Science</a></center>
+        </div>
+      </div>
+    </div>
+    <!--content1 ends-->
+    <!--content2 starts-->
+    <div class="container">
+      <div class="row content2">
+        <div class="col-sm-4 mt-5">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/m9dpeG2rKdY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-sm-4 mt-5">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/mUptoB0mUEs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-sm-4 mt-5">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/YuOIrrxFJL4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!--content2 ends-->
+    <!--content3 starts-->
+    <div class="container">
+      <div class="row content3">
+        <div class="col-sm-12">
+          <center>
+            <h3 class="mt-5 mb-5">Download Byju’s the Learning app</h3>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!--content3 ends-->
+    <!--content4 starts-->
+    <div class="container">
+      <div class="row content4">
+        <div class="col-sm-6 leftside">
+          <h5 class="mt-3">
+            Enjoy access to all our award winning videos, chapter-wise tests and
+            much more
+          </h5>
+          <img
+            src="https://cdn1.byjus.com/staging/2016/11/24110442/circle1.png"
+            class="mt-3"
+          />
+          <img
+            src="https://cdn1.byjus.com/staging/2016/11/24110444/circle2.png"
+            class="mt-3"
+          />
+          <img
+            src="https://cdn1.byjus.com/staging/2016/11/24110447/circle3.png"
+            class="mt-3"
+          />
+        </div>
+        <div class="col-sm-6 rightside">
+          <center>
+            <input
+              type="search"
+              name=""
+              value=""
+              placeholder="Type mobile number"
+              class="mt-3"
+            />
+            <button type="button" style="margin-left: -1rem">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </center>
+          <div>
+            <a href="#"
+              ><img
+                src="https://cdn1.byjus.com/staging/2016/09/27110207/google-play.png"
+                height="63px"
+                class="mt-5"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn1.byjus.com/staging/2016/09/27110201/app-store.png"
+                height="63px"
+                class="mt-5"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--content4 ends-->
+    <!--content5 starts-->
+    <div class="container">
+      <div class="row content5">
+        <div class="col-sm-12">
+          <center><h2 class="mt-5">How It Works</h2></center>
+        </div>
+      </div>
+    </div>
+    <!--content5 ends-->
+    <!--content6 starts-->
+    <div class="container">
+      <div class="row content6">
+        <div class="col-sm-12">
+          <img
+            src="https://cdn1.byjus.com/byjus-clone/wp-content/uploads/2017/01/30080351/6-10-infographic.png"
+            width="100%"
+            class="mt-5"
+          />
+        </div>
+      </div>
+    </div>
+    <!--content6 ends-->
+    <!--content7 starts-->
+    <div class="container">
+      <div class="row content7">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 middle-content">
+          <h6 class="mt-5">
+            “The video lessons on BYJU’S app are my favorite. It has helped me a
+            lot to understand hard topics in an easy way. The teachers are also
+            very helpful and has taught me interesting shortcut tricks to crack
+            maths problems. This app makes me want to study more.”
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!--content7 ends-->
+    <!--content8 starts-->
+    <div clas="container">
+      <div class="row content8">
+        <div class="col-sm-12 mt-5">
+          <center>
+            <h2 style="color: #00376e; font-weight: bold">
+              CLASSROOM PROGRAMS
+            </h2>
+          </center>
+        </div>
+      </div>
+    </div>
+    <!--content8 ends-->
+    <!--content9 starts-->
+    <div class="container">
+      <div class="row content9">
+        <div class="col-sm-12">
+          <p>
+            BYJU’s 360 degree learning program integrates the best of
+            traditional classroom learning and cutting edge technology. Click
+            here to know more –
+          </p>
+          <li><a href="#">11-12 Classroom</a></li>
+        </div>
+      </div>
+    </div>
+    <!--content9 ends-->
+    <!--content10 starts-->
+    <div class="container-fluid content10">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <h6>COURSES</h6>
+            <ul>
+              <li><a href="#">CBSE</a></li>
+              <li><a href="#">ICSE</a></li>
+              <li><a href="#">CAT</a></li>
+              <li><a href="#">IAS</a></li>
+              <li><a href="#">JEE</a></li>
+              <li><a href="#">NEET</a></li>
+              <li><a href="#">Commerce</a></li>
+              <li><a href="#">JEE Main</a></li>
+              <li><a href="#">NCERT</a></li>
+              <li><a href="#">JEE Advanced</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h6>EXAMS</h6>
+            <ul>
+              <li><a href="#">CAT Exam</a></li>
+              <li><a href="#">GATE Exam</a></li>
+              <li><a href="#">IAS Exam</a></li>
+              <li><a href="#">UPSC Syllabus</a></li>
+              <li><a href="#">UPSC 2021</a></li>
+              <li><a href="#">Bank Exam</a></li>
+              <li><a href="#">Government Exams</a></li>
+            </ul>
+            <h6>CLASSES</h6>
+            <ul>
+              <li>
+                <a href="#">Class 1<sup>st</sup> - 3<sup>rd</sup></a>
+              </li>
+              <li>
+                <a href="#">Class 4<sup>th</sup> - 5<sup>th</sup></a>
+              </li>
+              <li>
+                <a href="#">Class 6<sup>th</sup> - 10<sup>th</sup></a>
+              </li>
+              <li>
+                <a href="#">Class 11<sup>th</sup> - 12<sup>th</sup></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h6>EXAM PREPARATION</h6>
+            <ul>
+              <li><a href="#">Free CAT Prep</a></li>
+              <li><a href="#">Free IAS Prep</a></li>
+              <li><a href="#">Maths</a></li>
+              <li><a href="#">Physics</a></li>
+              <li><a href="#">Chemistry</a></li>
+              <li><a href="#">Biology</a></li>
+            </ul>
+            <h6>RESOURCES</h6>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">DSSL</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h6>COMPANY</h6>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">BYJU'S in media</a></li>
+              <li><a href="#">Students Stories - The Learning Tree</a></li>
+              <li><a href="#">Faces of BYJU'S – Life at BYJU'S</a></li>
+              <li><a href="#">Social Initiative - Education for All</a></li>
+              <li><a href="#">BYJU'S APP</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+            <h6>FOLLOW US</h6>
+            <a href="#"
+              ><i class="fab fa-linkedin" style="margin-left: 2rem"></i
+            ></a>
+            <a href="#"
+              ><i class="fab fa-facebook-f" style="margin-left: 3rem"></i
+            ></a>
+          </div>
+          <div class="col-sm-2">
+            <h6>FREE TEXTBOOK SOLUTIONS</h6>
+            <ul>
+              <li><a href="#">NCERT Solutions</a></li>
+              <li><a href="#">NCERT Exemplar</a></li>
+              <li><a href="#">NCERT Solutions for Class 6</a></li>
+              <li><a href="#">NCERT Solutions for Class 7</a></li>
+              <li><a href="#">NCERT Solutions for Class 8</a></li>
+              <li><a href="#">NCERT Solutions for Class 9</a></li>
+              <li><a href="#">NCERT Solutions for Class 10</a></li>
+              <li><a href="#">NCERT Solutions for Class 11</a></li>
+              <li><a href="#">NCERT Solutions for Class 12</a></li>
+              <li><a href="#">RD Sharma Solutions</a></li>
+              <li><a href="#">RS Aggarwal Solutions</a></li>
+              <li><a href="#">ICSE Selina Solutions</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h6>STATE BOARDS</h6>
+            <ul>
+              <li><a href="#">Maharashtra</a></li>
+              <li><a href="#">Gujarat</a></li>
+              <li><a href="#">Tamil Nadu</a></li>
+              <li><a href="#">Karnataka</a></li>
+              <li><a href="#">Kerala</a></li>
+              <li><a href="#">Andhra Pradesh</a></li>
+              <li><a href="#">Telangana</a></li>
+              <li><a href="#">Uttar Pradesh</a></li>
+              <li><a href="#">Bihar</a></li>
+              <li><a href="#">Rajasthan</a></li>
+              <li><a href="#">Madhya Pradesh</a></li>
+              <li><a href="#">West Bengal</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--content10 ends-->
+    <!--footer starts-->
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="footer-links">
+              <li>
+                <a href="#">Disclaimer</a>
+                <i class="fas fa-grip-lines-vertical"></i>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+                <i class="fas fa-grip-lines-vertical"></i>
+              </li>
+              <li>
+                <a href="#">Terms of services</a>
+                <i class="fas fa-grip-lines-vertical"></i>
+              </li>
+              <li>
+                <a href="#">sitemap</a>
+              </li>
+              <li style="float: right">
+                <a href="#">© 2021, BYJU'S. All rights reserved. </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer ends-->
+    <!--script tags-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
